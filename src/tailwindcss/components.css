@@ -1,3 +1,4 @@
+@import './components/button.css';
 .test {
-    @apply bg-base-100 flex min-h-screen flex-col items-center justify-between p-24
+  @apply bg-base-100 flex min-h-screen flex-col items-center justify-between p-24;
 }
