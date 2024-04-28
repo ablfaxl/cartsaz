@@ -1,0 +1,6 @@
+.hero {
+  @apply flex flex-col items-center justify-between p-5;
+  &-title {
+    @apply text-2xl font-bold mt-5;
+  }
+}
