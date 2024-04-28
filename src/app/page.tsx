@@ -1,7 +1,9 @@
+import { HeroSection } from '@/app/_components/hero-section/hero-section'
+
 export default function Home() {
   return (
-    <main className="test">
-      home page
+    <main>
+      <HeroSection />
     </main>
   )
 }
