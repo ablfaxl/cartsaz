@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html dir="rtl" className={`${yekan.variable} ${figtree.variable}`}>
+    <html dir="rtl" className={`${yekan.className} ${figtree.variable}`}>
       <body className={inter.className}>{children}</body>
     </html>
   )

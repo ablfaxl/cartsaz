@@ -8,7 +8,7 @@
     --color-primary: theme('colors.primary');
   }
 
-  html {
+  hhtml {
     font-family: var(--font-yekan);
   }
 
