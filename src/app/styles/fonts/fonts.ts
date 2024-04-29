@@ -11,14 +11,29 @@ export const figtree = Figtree({
 export const yekan = localFont({
   src: [
     {
-      path: '../../../../public/fonts/BYekan+.ttf',
-      weight: '600',
+      path: '../../../../public/fonts/IRANSansXFaNum-Light.woff2',
+      weight: '200',
+      style: 'light',
+    },
+    {
+      path: '../../../../public/fonts/IRANSansXFaNum-Light.woff2',
+      weight: '400',
       style: 'normal',
     },
     {
-      path: '../../../../public/fonts/BYekan_Bold.ttf',
-      weight: '700',
-      style: 'normal',
+      path: '../../../../public/fonts/IRANSansXFaNum-Medium.woff2',
+      weight: '500',
+      style: 'medium',
+    },
+    {
+      path: '../../../../public/fonts/IRANSansXFaNum-Bold.woff2',
+      weight: '800',
+      style: 'extrabold',
+    },
+    {
+      path: '../../../../public/fonts/IRANSansXFaNum-ExtraBold.woff2',
+      weight: '900',
+      style: 'black',
     },
   ],
   variable: '--font-yekan',
