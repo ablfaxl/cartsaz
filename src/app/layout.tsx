@@ -1,9 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { figtree, yekan } from '@/app/styles/fonts/fonts'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Cartsaz',
@@ -16,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html dir="rtl" className={`${yekan.className} ${figtree.variable}`}>
-      <body className={inter.className}>{children}</body>
+    <html dir="rtl" className={`${yekan.variable} ${figtree.variable}`}>
+      <body>{children}</body>
     </html>
   )
 }
