@@ -13,6 +13,7 @@
   }
 
   :lang(en) {
+    direction: ltr;
     font-family: var(--font-figtree);
   }
 }

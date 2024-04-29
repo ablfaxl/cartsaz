@@ -1,0 +1,11 @@
+.document {
+  @apply bg-base-75 text-main-white w-screen h-screen flex justify-center py-14;
+
+  &-heading {
+    @apply text-3xl font-bold text-secondary-blue-light;
+  }
+
+  &-body {
+    @apply text-lg font-medium leading-9 text-pretty text-base-50;
+  }
+}
