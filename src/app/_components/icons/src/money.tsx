@@ -1,0 +1,11 @@
+"use client"
+import BaseIcon from "@/app/_components/icons/base-icon";
+import {SvgIcon as SvgIconProps} from "@/app/_components/icons/icon-types";
+
+export default function SvgIcon(props:SvgIconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M61.8653 74.4885H25.8005C14.981 74.4885 7.76807 69.0788 7.76807 56.4561V31.2107C7.76807 18.588 14.981 13.1783 25.8005 13.1783H61.8653C72.6847 13.1783 79.8977 18.588 79.8977 31.2107V56.4561C79.8977 69.0788 72.6847 74.4885 61.8653 74.4885Z" stroke-miterlimit="10"/><path d="M43.8331 54.6528C49.8085 54.6528 54.6526 49.8088 54.6526 43.8334C54.6526 37.858 49.8085 33.0139 43.8331 33.0139C37.8577 33.0139 33.0137 37.858 33.0137 43.8334C33.0137 49.8088 37.8577 54.6528 43.8331 54.6528Z" stroke-miterlimit="10"/><path d="M20.3916 34.8172V52.8496" stroke-miterlimit="10"/><path d="M67.2754 34.8172V52.8496" stroke-miterlimit="10"/>
+    </BaseIcon>
+  );
+}
