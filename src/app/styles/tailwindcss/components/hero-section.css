@@ -1,6 +1,21 @@
 .hero {
-  @apply flex flex-col items-center justify-between p-5;
+  @apply flex flex-col w-screen h-screen items-center justify-between p-5 bg-main-black;
   &-title {
-    @apply text-2xl font-bold mt-5;
+    @apply flex items-center h-full justify-center;
+    :where(h1) {
+      @apply font-bold mt-5 text-warning-200 text-3xl;
+    }
+  }
+  &-animation {
+    animation: animation 2s ease-in-out infinite alternate;
+    @keyframes animation {
+      from {
+        transform: translateY(10%);
+      }
+
+      to {
+        transform: translateY(-20%);
+      }
+    }
   }
 }

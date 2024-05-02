@@ -1,20 +1,19 @@
-import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
 
 export const HeroSection: React.FC = () => {
   return (
     <div className="hero">
-      <h1 className="hero-title">جلسه اول</h1>
-      <ul>
-        <li>gulp and icon pack system</li>
-        <li>
-          <Link href="https://nextjs.org/docs/app/building-your-application/optimizing/fonts">
-            font in next js
-          </Link>
-        </li>
-        <li>fetch senario</li>
-        <li>git and github commit & branches system</li>
-      </ul>
+      <div lang="en" className="hero-title">
+        <h1>Front Art | Cooming Soon ...</h1>
+        <Image
+          className="hero-animation"
+          src="/images/astronaut.png"
+          alt="astronaut"
+          width={600}
+          height={600}
+        />
+      </div>
     </div>
   )
 }
