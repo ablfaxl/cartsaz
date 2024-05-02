@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import React from 'react'
-
+import Image from 'next/image'
+import hero from '../../../../public/images/astronaut.png'
 export const HeroSection: React.FC = () => {
   return (
     <div className="hero">
@@ -8,7 +8,7 @@ export const HeroSection: React.FC = () => {
         <h1>Front Art | Cooming Soon ...</h1>
         <Image
           className="hero-animation"
-          src="/images/astronaut.png"
+          src={hero}
           alt="astronaut"
           width={600}
           height={600}
