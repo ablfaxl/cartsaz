@@ -1,7 +1,7 @@
 .hero {
   @apply flex flex-col w-screen h-screen items-center justify-between p-5 bg-main-black;
   &-title {
-    @apply flex items-center h-full justify-center;
+    @apply flex flex-col lg:flex-row items-center h-full justify-center;
     :where(h1) {
       @apply font-bold mt-5 text-warning-200 text-3xl;
     }
