@@ -1,0 +1,19 @@
+.alert {
+    @apply text-right py-4 pr-4 rounded-t-lg w-full max-w-[414px] min-w-[414px] min-h-[64px];
+
+    &-primary {
+        @apply bg-warning-100 text-main-black;
+    }
+
+    &-warning {
+        @apply bg-warning text-main-black;
+    }
+
+    &-error {
+        @apply bg-error-100 text-main-black;
+    }
+
+    &-success {
+        @apply bg-success-100 text-main-white
+    }
+}
