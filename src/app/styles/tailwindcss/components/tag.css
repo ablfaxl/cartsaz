@@ -1,0 +1,19 @@
+.tag {
+    @apply text-center h-7 px-1 border rounded-[2.5rem];
+
+    &-primary {
+        @apply bg-gray-100 text-main-black border-gray-800;
+    }
+
+    &-warning {
+        @apply bg-warning-200 text-warning border-warning;
+    }
+
+    &-error {
+        @apply bg-error-50 text-error-100 border-error-100;
+    }
+
+    &-success {
+        @apply bg-success-200 text-success-100 border-success-100;
+    }
+}
